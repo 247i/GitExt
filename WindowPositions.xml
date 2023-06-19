@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WindowPositionList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <WindowPositions>
+    <WindowPosition>
+      <Rect>
+        <Location>
+          <X>0</X>
+          <Y>0</Y>
+        </Location>
+        <Size>
+          <Width>974</Width>
+          <Height>785</Height>
+        </Size>
+        <X>0</X>
+        <Y>0</Y>
+        <Width>974</Width>
+        <Height>785</Height>
+      </Rect>
+      <State>Normal</State>
+      <Name>FormSettings</Name>
+    </WindowPosition>
+    <WindowPosition>
+      <Rect>
+        <Location>
+          <X>52</X>
+          <Y>52</Y>
+        </Location>
+        <Size>
+          <Width>939</Width>
+          <Height>612</Height>
+        </Size>
+        <X>52</X>
+        <Y>52</Y>
+        <Width>939</Width>
+        <Height>612</Height>
+      </Rect>
+      <State>Normal</State>
+      <Name>FormBrowse</Name>
+    </WindowPosition>
+  </WindowPositions>
+</WindowPositionList>
