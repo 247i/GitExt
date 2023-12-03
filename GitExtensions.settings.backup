@@ -605,7 +605,7 @@
       <string>FormBrowse.RevisionsSplitContainer_Distance</string>
     </key>
     <value>
-      <string>339</string>
+      <string>335</string>
     </value>
   </item>
   <item>
@@ -701,7 +701,7 @@
       <string>gitbindir</string>
     </key>
     <value>
-      <string />
+      <string>..\அறிவிலி\usr\bin\</string>
     </value>
   </item>
   <item>
