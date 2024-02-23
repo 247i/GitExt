@@ -8,34 +8,34 @@
           <Y>0</Y>
         </Location>
         <Size>
-          <Width>1461</Width>
-          <Height>1106</Height>
+          <Width>1217</Width>
+          <Height>969</Height>
         </Size>
         <X>0</X>
         <Y>0</Y>
-        <Width>1461</Width>
-        <Height>1106</Height>
+        <Width>1217</Width>
+        <Height>969</Height>
       </Rect>
-      <DeviceDpi>144</DeviceDpi>
+      <DeviceDpi>120</DeviceDpi>
       <State>Normal</State>
       <Name>FormSettings</Name>
     </WindowPosition>
     <WindowPosition>
       <Rect>
         <Location>
-          <X>78</X>
-          <Y>78</Y>
+          <X>65</X>
+          <Y>65</Y>
         </Location>
         <Size>
-          <Width>1408</Width>
-          <Height>918</Height>
+          <Width>1173</Width>
+          <Height>765</Height>
         </Size>
-        <X>78</X>
-        <Y>78</Y>
-        <Width>1408</Width>
-        <Height>918</Height>
+        <X>65</X>
+        <Y>65</Y>
+        <Width>1173</Width>
+        <Height>765</Height>
       </Rect>
-      <DeviceDpi>144</DeviceDpi>
+      <DeviceDpi>120</DeviceDpi>
       <State>Normal</State>
       <Name>FormBrowse</Name>
     </WindowPosition>

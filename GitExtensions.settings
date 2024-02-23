@@ -461,7 +461,7 @@
       <string>FormBrowse.DiffSplitContainer_Distance</string>
     </key>
     <value>
-      <string>450</string>
+      <string>375</string>
     </value>
   </item>
   <item>
@@ -469,7 +469,7 @@
       <string>FormBrowse.DiffSplitContainer_Dpi</string>
     </key>
     <value>
-      <string>144</string>
+      <string>120</string>
     </value>
   </item>
   <item>
@@ -501,7 +501,7 @@
       <string>FormBrowse.DiffSplitContainer_Size</string>
     </key>
     <value>
-      <string>965</string>
+      <string>803</string>
     </value>
   </item>
   <item>
@@ -509,7 +509,7 @@
       <string>FormBrowse.FileTreeSplitContainer_Distance</string>
     </key>
     <value>
-      <string>450</string>
+      <string>375</string>
     </value>
   </item>
   <item>
@@ -517,7 +517,7 @@
       <string>FormBrowse.FileTreeSplitContainer_Dpi</string>
     </key>
     <value>
-      <string>144</string>
+      <string>120</string>
     </value>
   </item>
   <item>
@@ -549,7 +549,7 @@
       <string>FormBrowse.FileTreeSplitContainer_Size</string>
     </key>
     <value>
-      <string>965</string>
+      <string>803</string>
     </value>
   </item>
   <item>
@@ -557,7 +557,7 @@
       <string>FormBrowse.MainSplitContainer_Distance</string>
     </key>
     <value>
-      <string>390</string>
+      <string>325</string>
     </value>
   </item>
   <item>
@@ -565,7 +565,7 @@
       <string>FormBrowse.MainSplitContainer_Dpi</string>
     </key>
     <value>
-      <string>144</string>
+      <string>120</string>
     </value>
   </item>
   <item>
@@ -597,7 +597,7 @@
       <string>FormBrowse.MainSplitContainer_Size</string>
     </key>
     <value>
-      <string>1366</string>
+      <string>1138</string>
     </value>
   </item>
   <item>
@@ -605,7 +605,7 @@
       <string>FormBrowse.RevisionsSplitContainer_Distance</string>
     </key>
     <value>
-      <string>496</string>
+      <string>407</string>
     </value>
   </item>
   <item>
@@ -613,7 +613,7 @@
       <string>FormBrowse.RevisionsSplitContainer_Dpi</string>
     </key>
     <value>
-      <string>144</string>
+      <string>120</string>
     </value>
   </item>
   <item>
@@ -645,7 +645,7 @@
       <string>FormBrowse.RevisionsSplitContainer_Size</string>
     </key>
     <value>
-      <string>967</string>
+      <string>805</string>
     </value>
   </item>
   <item>
@@ -653,7 +653,7 @@
       <string>FormBrowse.RightSplitContainer_Distance</string>
     </key>
     <value>
-      <string>319</string>
+      <string>265</string>
     </value>
   </item>
   <item>
@@ -661,7 +661,7 @@
       <string>FormBrowse.RightSplitContainer_Dpi</string>
     </key>
     <value>
-      <string>144</string>
+      <string>120</string>
     </value>
   </item>
   <item>
@@ -693,7 +693,7 @@
       <string>FormBrowse.RightSplitContainer_Size</string>
     </key>
     <value>
-      <string>767</string>
+      <string>638</string>
     </value>
   </item>
   <item>
