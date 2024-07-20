@@ -17,7 +17,7 @@
           "Microsoft.VisualStudio.Threading": "17.4.27",
           "NETStandard.Library": "2.0.0",
           "ResourceManager": "1.0.0",
-          "StyleCop.Analyzers": "1.2.0-beta.321",
+          "StyleCop.Analyzers": "1.2.0-beta.435",
           "WiX": "3.11.2",
           "vswhere": "2.8.4"
         },
@@ -239,12 +239,12 @@
           }
         }
       },
-      "StyleCop.Analyzers/1.2.0-beta.321": {
+      "StyleCop.Analyzers/1.2.0-beta.435": {
         "dependencies": {
-          "StyleCop.Analyzers.Unstable": "1.2.0.321"
+          "StyleCop.Analyzers.Unstable": "1.2.0.435"
         }
       },
-      "StyleCop.Analyzers.Unstable/1.2.0.321": {},
+      "StyleCop.Analyzers.Unstable/1.2.0.435": {},
       "System.ComponentModel.Composition/6.0.0": {
         "runtime": {
           "lib/net6.0/System.ComponentModel.Composition.dll": {
@@ -779,19 +779,19 @@
       "path": "smartformat/3.0.0",
       "hashPath": "smartformat.3.0.0.nupkg.sha512"
     },
-    "StyleCop.Analyzers/1.2.0-beta.321": {
+    "StyleCop.Analyzers/1.2.0-beta.435": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-immyDIuCjDT2sxv+mAhQ2IH4HyiHJkAvKqK7l1ksJDWAOdeAvkco7EZ14IGWbiWNOEBRm1p7P9UAbfgT9aJSEA==",
-      "path": "stylecop.analyzers/1.2.0-beta.321",
-      "hashPath": "stylecop.analyzers.1.2.0-beta.321.nupkg.sha512"
+      "sha512": "sha512-TADk7vdGXtfTnYCV7GyleaaRTQjfoSfZXprQrVMm7cSJtJbFc1QIbWPyLvrgrfGdfHbGmUPvaN4ODKNxg2jgPQ==",
+      "path": "stylecop.analyzers/1.2.0-beta.435",
+      "hashPath": "stylecop.analyzers.1.2.0-beta.435.nupkg.sha512"
     },
-    "StyleCop.Analyzers.Unstable/1.2.0.321": {
+    "StyleCop.Analyzers.Unstable/1.2.0.435": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-CLL1cwvzGyXsCDzHQuAV3STrkIfTXqlS/vnxJTlSiRmmFjnTnoNVIZWwv738/hWxoh8MjPyHlp7eLossZIB5kg==",
-      "path": "stylecop.analyzers.unstable/1.2.0.321",
-      "hashPath": "stylecop.analyzers.unstable.1.2.0.321.nupkg.sha512"
+      "sha512": "sha512-ouwPWZxbOV3SmCZxIRqHvljkSzkCyi1tDoMzQtDb/bRP8ctASV/iRJr+A2Gdj0QLaLmWnqTWDrH82/iP+X80Lg==",
+      "path": "stylecop.analyzers.unstable/1.2.0.435",
+      "hashPath": "stylecop.analyzers.unstable.1.2.0.435.nupkg.sha512"
     },
     "System.ComponentModel.Composition/6.0.0": {
       "type": "package",

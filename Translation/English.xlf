@@ -193,15 +193,15 @@ Click this info icon for more details.</source>
         <target />
       </trans-unit>
       <trans-unit id="gbAuthorImages.Text">
-        <source>Author images</source>
+        <source>&amp;Author images</source>
         <target />
       </trans-unit>
       <trans-unit id="gbGeneral.Text">
-        <source>General</source>
+        <source>&amp;General</source>
         <target />
       </trans-unit>
       <trans-unit id="gbLanguages.Text">
-        <source>Language</source>
+        <source>&amp;Language</source>
         <target />
       </trans-unit>
       <trans-unit id="helpTranslate.Text">
@@ -441,7 +441,7 @@ Click this info icon for more details.</source>
 
 Because of this, make sure to fill in all the fields in the report template please.
 
-Send report anyway?</source>
+Send report?</source>
         <target />
       </trans-unit>
       <trans-unit id="_title.Text">
@@ -1039,6 +1039,10 @@ Please make sure that Git for Windows is installed or set the correct command ma
       </trans-unit>
       <trans-unit id="chkAutoPopStashAfterPull.Text">
         <source>Apply stashed changes after successful pull (else stash will be popped automatically)</source>
+        <target />
+      </trans-unit>
+      <trans-unit id="chkBranchCheckoutConfirmation.Text">
+        <source>Checkout branch using left panel</source>
         <target />
       </trans-unit>
       <trans-unit id="chkBranchDeleteUnmerged.Text">
@@ -3139,28 +3143,24 @@ Are you sure?</source>
         <source>Cherry pick commit</source>
         <target />
       </trans-unit>
-      <trans-unit id="AutoCommit.Text">
-        <source>&amp;Automatically create a commit</source>
-        <target />
-      </trans-unit>
-      <trans-unit id="BranchInfo.Text">
-        <source>Cherry pick this commit:</source>
-        <target />
-      </trans-unit>
-      <trans-unit id="ParentsLabel.Text">
-        <source>This commit is a merge, select &amp;parent:</source>
-        <target />
-      </trans-unit>
-      <trans-unit id="Pick.Text">
-        <source>&amp;Cherry pick</source>
-        <target />
-      </trans-unit>
       <trans-unit id="_noneParentSelectedText.Text">
         <source>None parent is selected!</source>
         <target />
       </trans-unit>
-      <trans-unit id="checkAddReference.Text">
+      <trans-unit id="btnAbort.Text">
+        <source>A&amp;bort</source>
+        <target />
+      </trans-unit>
+      <trans-unit id="btnPick.Text">
+        <source>&amp;Cherry pick</source>
+        <target />
+      </trans-unit>
+      <trans-unit id="cbxAddReference.Text">
         <source>A&amp;dd commit reference to commit message</source>
+        <target />
+      </trans-unit>
+      <trans-unit id="cbxAutoCommit.Text">
+        <source>&amp;Automatically create a commit</source>
         <target />
       </trans-unit>
       <trans-unit id="columnHeader1.Text">
@@ -3179,9 +3179,12 @@ Are you sure?</source>
         <source>Date</source>
         <target />
       </trans-unit>
-      <trans-unit id="label2.Text">
-        <source>C&amp;hoose another
-revision:</source>
+      <trans-unit id="lblBranchInfo.Text">
+        <source>Cherry pick this commit:</source>
+        <target />
+      </trans-unit>
+      <trans-unit id="lblParents.Text">
+        <source>This commit is a merge, select &amp;parent:</source>
         <target />
       </trans-unit>
     </body>
@@ -3240,8 +3243,16 @@ revision:</source>
         <source>Clean working directory</source>
         <target />
       </trans-unit>
-      <trans-unit id="AddPath.Text">
+      <trans-unit id="AddExclusivePath.Text">
         <source>Add a path...</source>
+        <target />
+      </trans-unit>
+      <trans-unit id="AddInclusivePath.Text">
+        <source>Add a path...</source>
+        <target />
+      </trans-unit>
+      <trans-unit id="CleanSubmodules.Text">
+        <source>Clean submodules recursively</source>
         <target />
       </trans-unit>
       <trans-unit id="Cleanup.Text">
@@ -3276,8 +3287,12 @@ revision:</source>
         <source>Cleanup</source>
         <target />
       </trans-unit>
-      <trans-unit id="checkBoxPathFilter.Text">
-        <source>Affect the following path(s) only:</source>
+      <trans-unit id="checkBoxExcludePathFilter.Text">
+        <source>Exclude the following file path(s):</source>
+        <target />
+      </trans-unit>
+      <trans-unit id="checkBoxIncludePathFilter.Text">
+        <source>Affect the following directory path(s) only:</source>
         <target />
       </trans-unit>
       <trans-unit id="groupBox1.Text">
@@ -3288,7 +3303,11 @@ revision:</source>
         <source>Log:</source>
         <target />
       </trans-unit>
-      <trans-unit id="labelPathHint.Text">
+      <trans-unit id="labelPathHintExclude.Text">
+        <source>(one path per line)</source>
+        <target />
+      </trans-unit>
+      <trans-unit id="labelPathHintInclude.Text">
         <source>(one path per line)</source>
         <target />
       </trans-unit>
@@ -3446,10 +3465,6 @@ gitex.cmd / gitex (located in the same folder as GitExtensions.exe):</source>
         <source>Commit</source>
         <target />
       </trans-unit>
-      <trans-unit id="Reset.Text">
-        <source>&amp;Reset all changes</source>
-        <target />
-      </trans-unit>
       <trans-unit id="ResetAuthor.Text">
         <source>R&amp;eset author</source>
         <target />
@@ -3460,10 +3475,6 @@ gitex.cmd / gitex (located in the same folder as GitExtensions.exe):</source>
       </trans-unit>
       <trans-unit id="ResetSoft.fileTooltip">
         <source>Perform a soft reset to the previous commit; leaves working directory and index untouched</source>
-        <target />
-      </trans-unit>
-      <trans-unit id="ResetUnStaged.Text">
-        <source>Reset u&amp;nstaged changes</source>
         <target />
       </trans-unit>
       <trans-unit id="ShowOnlyMyMessagesToolStripMenuItem.Text">
@@ -3757,6 +3768,14 @@ You can unset the template:
         <source>(Branch name)</source>
         <target />
       </trans-unit>
+      <trans-unit id="btnResetAllChanges.Text">
+        <source>&amp;Reset all changes</source>
+        <target />
+      </trans-unit>
+      <trans-unit id="btnResetUnstagedChanges.Text">
+        <source>Reset u&amp;nstaged changes</source>
+        <target />
+      </trans-unit>
       <trans-unit id="closeDialogAfterAllFilesCommittedToolStripMenuItem.Text">
         <source>Close dialog when all changes are committed</source>
         <target />
@@ -3815,10 +3834,6 @@ You can unset the template:
       </trans-unit>
       <trans-unit id="deleteFileToolStripMenuItem.Text">
         <source>Delete file</source>
-        <target />
-      </trans-unit>
-      <trans-unit id="deleteSelectedFilesToolStripMenuItem.Text">
-        <source>Delete selected files</source>
         <target />
       </trans-unit>
       <trans-unit id="doNotAssumeUnchangedToolStripMenuItem.Text">
@@ -3889,28 +3904,12 @@ You can unset the template:
         <source>(Remote name)</source>
         <target />
       </trans-unit>
-      <trans-unit id="resetAllTrackedChangesToolStripMenuItem.Text">
-        <source>Reset all (tracked) changes</source>
-        <target />
-      </trans-unit>
-      <trans-unit id="resetChanges.Text">
-        <source>Reset file or directory changes</source>
-        <target />
-      </trans-unit>
       <trans-unit id="resetPartOfFileToolStripMenuItem.Text">
         <source>Reset chunk of file</source>
         <target />
       </trans-unit>
-      <trans-unit id="resetSelectedFilesToolStripMenuItem.Text">
-        <source>Reset selected files</source>
-        <target />
-      </trans-unit>
       <trans-unit id="resetSubmoduleChanges.Text">
         <source>Reset submodule changes</source>
-        <target />
-      </trans-unit>
-      <trans-unit id="resetUnstagedChangesToolStripMenuItem.Text">
-        <source>Reset unstaged changes</source>
         <target />
       </trans-unit>
       <trans-unit id="selectionFilterToolStripMenuItem.Text">
@@ -4003,6 +4002,10 @@ You can unset the template:
       </trans-unit>
       <trans-unit id="toolUnstageItem.Text">
         <source>&amp;Unstage</source>
+        <target />
+      </trans-unit>
+      <trans-unit id="tsmiResetUnstagedChanges.Text">
+        <source>Reset file or directory changes</source>
         <target />
       </trans-unit>
       <trans-unit id="updateSubmoduleMenuItem.Text">
@@ -4917,11 +4920,15 @@ command "git help gitattributes"
         <target />
       </trans-unit>
       <trans-unit id="mnuClear.Text">
-        <source>Clear</source>
+        <source>C&amp;lear</source>
+        <target />
+      </trans-unit>
+      <trans-unit id="mnuCopyCommandLine.Text">
+        <source>&amp;Copy full command line</source>
         <target />
       </trans-unit>
       <trans-unit id="mnuSaveToFile.Text">
-        <source>Save to file</source>
+        <source>&amp;Save to file</source>
         <target />
       </trans-unit>
       <trans-unit id="tabPageCommandCache.Text">
@@ -7017,12 +7024,12 @@ Do you want to use this custom merge script?</source>
         <source>Full &amp;history</source>
         <target />
       </trans-unit>
-      <trans-unit id="IgnoreCase.Text">
-        <source>&amp;Ignore case</source>
+      <trans-unit id="HideMergeCommitsCheck.Text">
+        <source>Hide merge commi&amp;ts</source>
         <target />
       </trans-unit>
-      <trans-unit id="MergeCommitsCheck.Text">
-        <source>Merge commi&amp;ts</source>
+      <trans-unit id="IgnoreCase.Text">
+        <source>&amp;Ignore case</source>
         <target />
       </trans-unit>
       <trans-unit id="Ok.Text">
@@ -7030,7 +7037,7 @@ Do you want to use this custom merge script?</source>
         <target />
       </trans-unit>
       <trans-unit id="OnlyFirstParentCheck.Text">
-        <source>Only &amp;first parent</source>
+        <source>Show only &amp;first parent</source>
         <target />
       </trans-unit>
       <trans-unit id="ReflogCheck.Text">
@@ -7899,11 +7906,11 @@ Check if file is accessible.</source>
         <source>Paths</source>
         <target />
       </trans-unit>
-      <trans-unit id="BrowseGitBinPath.Text">
+      <trans-unit id="BrowseGitPath.Text">
         <source>Browse</source>
         <target />
       </trans-unit>
-      <trans-unit id="BrowseGitPath.Text">
+      <trans-unit id="BrowseLinuxToolsDir.Text">
         <source>Browse</source>
         <target />
       </trans-unit>
@@ -8188,6 +8195,14 @@ help</source>
       </trans-unit>
       <trans-unit id="_cannotOpenSubmoduleCaption.Text">
         <source>Cannot open submodule</source>
+        <target />
+      </trans-unit>
+      <trans-unit id="_confirmBranchCheckout.Text">
+        <source>Are you sure you want to check out branch "{0}"?</source>
+        <target />
+      </trans-unit>
+      <trans-unit id="_confirmBranchCheckoutCaption.Text">
+        <source>Confirm checkout</source>
         <target />
       </trans-unit>
       <trans-unit id="_directoryDoesNotExist.Text">
@@ -9094,6 +9109,14 @@ See the changes in the commit form.</source>
         <source>Start typing in revision grid to start quick search.</source>
         <target />
       </trans-unit>
+      <trans-unit id="SaveAsDefault.Text">
+        <source>Save current view settings as default</source>
+        <target />
+      </trans-unit>
+      <trans-unit id="Settings_persistenceToolStripMenuItem.Text">
+        <source>Settings persistence</source>
+        <target />
+      </trans-unit>
       <trans-unit id="ShowAllBranches.Text">
         <source>Show &amp;all branches</source>
         <target />
@@ -9558,20 +9581,20 @@ See the changes in the commit form.</source>
         <source>Use {option} for normal replacement.
 Use {{option}} for quoted replacement.
 
-User Input:
+User inputs:
 {UserInput}
 {UserFiles}
 
-Working Dir:
+Working directory:
 {WorkingDir}
 
 Repository:
 {RepoName}
 
-Selected Commits:
+Selected commits:
 {sHashes}
 
-Selected Branch:
+Selected revision:
 {sTag}
 {sBranch}
 {sLocalBranch}
@@ -9588,7 +9611,8 @@ Selected Branch:
 {sAuthorDate}
 {sCommitDate}
 
-Current Branch:
+Currently checked out revision:
+{HEAD}   (checked out branch name or checked out commit hash)
 {cTag}
 {cBranch}
 {cLocalBranch}
@@ -10088,6 +10112,22 @@ Select this commit to populate the full message.</source>
         <source>Exit code</source>
         <target />
       </trans-unit>
+      <trans-unit id="_externalErrorDescription.Text">
+        <source>error from git or from other external application</source>
+        <target />
+      </trans-unit>
+      <trans-unit id="_failedToLoadAnAssembly.Text">
+        <source>Failed to load an assembly</source>
+        <target />
+      </trans-unit>
+      <trans-unit id="_failedToLoadFileOrAssemblyFormat.Text">
+        <source>Could not load file or assembly '{0}'.</source>
+        <target />
+      </trans-unit>
+      <trans-unit id="_failedToLoadFileOrAssemblyText.Text">
+        <source>Most of the times the error is temporary, likely caused by Windows Update.</source>
+        <target />
+      </trans-unit>
       <trans-unit id="_filterFileInGrid.Text">
         <source>Filter file in &amp;grid</source>
         <target />
@@ -10159,6 +10199,10 @@ following command.
       </trans-unit>
       <trans-unit id="_gitSecurityError.Text">
         <source>Git security error</source>
+        <target />
+      </trans-unit>
+      <trans-unit id="_hideErrorMessage.Text">
+        <source>Hide error message...</source>
         <target />
       </trans-unit>
       <trans-unit id="_hoursAgo.Text">
@@ -10241,6 +10285,10 @@ following command.
         <source>Git revision does not exist</source>
         <target />
       </trans-unit>
+      <trans-unit id="_notConfigured.Text">
+        <source>{0} not configured</source>
+        <target />
+      </trans-unit>
       <trans-unit id="_okText.Text">
         <source>OK</source>
         <target />
@@ -10295,6 +10343,18 @@ Remote: {1}</source>
         <source>If you think this was caused by Git Extensions, you can report a bug for the team to investigate.</source>
         <target />
       </trans-unit>
+      <trans-unit id="_reportIssue.Text">
+        <source>Report the issue</source>
+        <target />
+      </trans-unit>
+      <trans-unit id="_reportIssueDescription.Text">
+        <source>for the team to investigate - if you think this was caused by Git Extensions</source>
+        <target />
+      </trans-unit>
+      <trans-unit id="_reportReproducedIssueDescription.Text">
+        <source>If you can consistently reproduce the issue, please report it.</source>
+        <target />
+      </trans-unit>
       <trans-unit id="_resetChangesCaption.Text">
         <source>Reset changes</source>
         <target />
@@ -10305,6 +10365,15 @@ Remote: {1}</source>
       </trans-unit>
       <trans-unit id="_resetSelectedLinesConfirmation.Text">
         <source>Are you sure you want to reset the changes to the selected lines?</source>
+        <target />
+      </trans-unit>
+      <trans-unit id="_restartApplication.Text">
+        <source>Restart Git Extensions</source>
+        <target />
+      </trans-unit>
+      <trans-unit id="_restartApplicationDescription.Text">
+        <source>Usually restarting the application solves the issue.
+Sometimes Windows may need to be restarted too.</source>
         <target />
       </trans-unit>
       <trans-unit id="_rotInactive.Text">
@@ -10341,6 +10410,10 @@ Remote: {1}</source>
       </trans-unit>
       <trans-unit id="_secondsAgo.Text">
         <source>{0} {1:second|seconds} ago</source>
+        <target />
+      </trans-unit>
+      <trans-unit id="_seeErrorMessage.Text">
+        <source>See error message...</source>
         <target />
       </trans-unit>
       <trans-unit id="_settingsTypeToFind.Text">
