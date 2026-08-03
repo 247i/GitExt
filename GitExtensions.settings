@@ -293,7 +293,7 @@
       <string>Detailed.ConEmuStyle</string>
     </key>
     <value>
-      <string>Default</string>
+      <string>&lt;Monokai&gt;</string>
     </value>
   </item>
   <item>
@@ -365,7 +365,7 @@
       <string>dictionary</string>
     </key>
     <value>
-      <string />
+      <string>none</string>
     </value>
   </item>
   <item>
@@ -693,7 +693,7 @@
       <string>FormBrowse.fileTree.LeftSplitContainer_Distance</string>
     </key>
     <value>
-      <string>346</string>
+      <string>364</string>
     </value>
   </item>
   <item>
@@ -741,7 +741,7 @@
       <string>FormBrowse.LeftSplitContainer_Distance</string>
     </key>
     <value>
-      <string>600</string>
+      <string>618</string>
     </value>
   </item>
   <item>
@@ -981,7 +981,7 @@
       <string>FormBrowse.revisionDiff.LeftSplitContainer_Distance</string>
     </key>
     <value>
-      <string>346</string>
+      <string>364</string>
     </value>
   </item>
   <item>
@@ -1029,7 +1029,7 @@
       <string>FormBrowse.RevisionsSplitContainer_Distance</string>
     </key>
     <value>
-      <string>532</string>
+      <string>550</string>
     </value>
   </item>
   <item>
@@ -1173,7 +1173,7 @@
       <string>LinuxToolsDir</string>
     </key>
     <value>
-      <string />
+      <string>.//64/bin/</string>
     </value>
   </item>
   <item>
@@ -1248,7 +1248,7 @@
     &lt;HotkeyCommandIdentifier&gt;9001&lt;/HotkeyCommandIdentifier&gt;
   &lt;/ScriptInfo&gt;
   &lt;ScriptInfo&gt;
-    &lt;Enabled&gt;false&lt;/Enabled&gt;
+    &lt;Enabled&gt;true&lt;/Enabled&gt;
     &lt;Name&gt;&amp;amp;Open in VS Code&lt;/Name&gt;
     &lt;Command&gt;bash&lt;/Command&gt;
     &lt;Arguments&gt;-c 'if [ -z "{SelectedRelativePaths}" ]; then code .; elif [ -d "{SelectedRelativePaths}" ]; then code {{SelectedRelativePaths}}; elif [ ! -f "{SelectedRelativePaths}" ]; then code . --goto {{SelectedRelativePaths}}; else code . --goto {{SelectedRelativePaths}}:{LineNumber}:{ColumnNumber}; fi'&lt;/Arguments&gt;
@@ -1886,6 +1886,14 @@
   </item>
   <item>
     <key>
+      <string>systemvisualstyle</string>
+    </key>
+    <value>
+      <string>false</string>
+    </value>
+  </item>
+  <item>
+    <key>
       <string>TelemetryEnabled</string>
     </key>
     <value>
@@ -1913,7 +1921,7 @@
       <string>uitheme_v2</string>
     </key>
     <value>
-      <string>light</string>
+      <string>dark</string>
     </value>
   </item>
   <item>
