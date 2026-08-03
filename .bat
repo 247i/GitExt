@@ -14,4 +14,7 @@ set "WinMerge_FOLDER="
 :: Clone the repository into the specified subfolder
 git clone %WinMerge_REPO% %WinMerge_FOLDER%
 
+
+:: Get the VSCode portable into vscode folder manually
+:: Get the VSCodium portable into vscodium folder manually
 pause
