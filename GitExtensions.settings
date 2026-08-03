@@ -365,7 +365,7 @@
       <string>dictionary</string>
     </key>
     <value>
-      <string>none</string>
+      <string />
     </value>
   </item>
   <item>
@@ -693,7 +693,7 @@
       <string>FormBrowse.fileTree.LeftSplitContainer_Distance</string>
     </key>
     <value>
-      <string>337</string>
+      <string>346</string>
     </value>
   </item>
   <item>
@@ -741,7 +741,7 @@
       <string>FormBrowse.LeftSplitContainer_Distance</string>
     </key>
     <value>
-      <string>591</string>
+      <string>600</string>
     </value>
   </item>
   <item>
@@ -981,7 +981,7 @@
       <string>FormBrowse.revisionDiff.LeftSplitContainer_Distance</string>
     </key>
     <value>
-      <string>337</string>
+      <string>346</string>
     </value>
   </item>
   <item>
@@ -1029,7 +1029,7 @@
       <string>FormBrowse.RevisionsSplitContainer_Distance</string>
     </key>
     <value>
-      <string>523</string>
+      <string>532</string>
     </value>
   </item>
   <item>
@@ -1224,19 +1224,19 @@
       <string>&lt;?xml version="1.0" encoding="utf-16"?&gt;
 &lt;ArrayOfScriptInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
   &lt;ScriptInfo&gt;
-    &lt;Enabled&gt;false&lt;/Enabled&gt;
+    &lt;Enabled&gt;true&lt;/Enabled&gt;
     &lt;Name&gt;Fetch changes after commit&lt;/Name&gt;
     &lt;Command&gt;git&lt;/Command&gt;
     &lt;Arguments&gt;fetch&lt;/Arguments&gt;
     &lt;AddToRevisionGridContextMenu&gt;false&lt;/AddToRevisionGridContextMenu&gt;
     &lt;OnEvent&gt;AfterCommit&lt;/OnEvent&gt;
-    &lt;AskConfirmation&gt;true&lt;/AskConfirmation&gt;
+    &lt;AskConfirmation&gt;false&lt;/AskConfirmation&gt;
     &lt;RunInBackground&gt;false&lt;/RunInBackground&gt;
     &lt;IsPowerShell&gt;false&lt;/IsPowerShell&gt;
     &lt;HotkeyCommandIdentifier&gt;9000&lt;/HotkeyCommandIdentifier&gt;
   &lt;/ScriptInfo&gt;
   &lt;ScriptInfo&gt;
-    &lt;Enabled&gt;false&lt;/Enabled&gt;
+    &lt;Enabled&gt;true&lt;/Enabled&gt;
     &lt;Name&gt;Update submodules after pull&lt;/Name&gt;
     &lt;Command&gt;git&lt;/Command&gt;
     &lt;Arguments&gt;submodule update --init --recursive&lt;/Arguments&gt;
@@ -1273,7 +1273,7 @@
     &lt;HotkeyCommandIdentifier&gt;9002&lt;/HotkeyCommandIdentifier&gt;
   &lt;/ScriptInfo&gt;
   &lt;ScriptInfo&gt;
-    &lt;Enabled&gt;false&lt;/Enabled&gt;
+    &lt;Enabled&gt;true&lt;/Enabled&gt;
     &lt;Name&gt;Open on GitHub&lt;/Name&gt;
     &lt;Command&gt;{openurl}&lt;/Command&gt;
     &lt;Arguments&gt;https://github.com{cDefaultRemotePathFromUrl}/commit/{sHash}&lt;/Arguments&gt;
@@ -1285,7 +1285,7 @@
     &lt;HotkeyCommandIdentifier&gt;9003&lt;/HotkeyCommandIdentifier&gt;
   &lt;/ScriptInfo&gt;
   &lt;ScriptInfo&gt;
-    &lt;Enabled&gt;false&lt;/Enabled&gt;
+    &lt;Enabled&gt;true&lt;/Enabled&gt;
     &lt;Name&gt;Fetch All Submodules&lt;/Name&gt;
     &lt;Command&gt;git&lt;/Command&gt;
     &lt;Arguments&gt;submodule foreach --recursive git fetch --all&lt;/Arguments&gt;
