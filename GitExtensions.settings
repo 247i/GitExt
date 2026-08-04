@@ -1336,7 +1336,7 @@
       <string>plink</string>
     </key>
     <value>
-      <string>.//TortoisePlink.exe</string>
+      <string>.//PLINK.EXE</string>
     </value>
   </item>
   <item>
