@@ -693,7 +693,7 @@
       <string>FormBrowse.fileTree.LeftSplitContainer_Distance</string>
     </key>
     <value>
-      <string>355</string>
+      <string>364</string>
     </value>
   </item>
   <item>
@@ -741,7 +741,7 @@
       <string>FormBrowse.LeftSplitContainer_Distance</string>
     </key>
     <value>
-      <string>654</string>
+      <string>663</string>
     </value>
   </item>
   <item>
@@ -981,7 +981,7 @@
       <string>FormBrowse.revisionDiff.LeftSplitContainer_Distance</string>
     </key>
     <value>
-      <string>355</string>
+      <string>364</string>
     </value>
   </item>
   <item>
@@ -1029,7 +1029,7 @@
       <string>FormBrowse.RevisionsSplitContainer_Distance</string>
     </key>
     <value>
-      <string>586</string>
+      <string>595</string>
     </value>
   </item>
   <item>
@@ -1125,7 +1125,7 @@
       <string>gitcommand</string>
     </key>
     <value>
-      <string>.//64/bin/git.exe</string>
+      <string>../Git/64/bin/git.exe</string>
     </value>
   </item>
   <item>
@@ -1173,7 +1173,7 @@
       <string>LinuxToolsDir</string>
     </key>
     <value>
-      <string>.//64/bin/</string>
+      <string>../Git/64/bin/</string>
     </value>
   </item>
   <item>
@@ -1328,7 +1328,7 @@
       <string>pageant</string>
     </key>
     <value>
-      <string>.//pageant.exe</string>
+      <string>../PuTTY/pageant.exe</string>
     </value>
   </item>
   <item>
@@ -1336,7 +1336,7 @@
       <string>plink</string>
     </key>
     <value>
-      <string>.//PLINK.EXE</string>
+      <string>../PuTTY/PLINK.EXE</string>
     </value>
   </item>
   <item>
@@ -1368,7 +1368,7 @@
       <string>puttygen</string>
     </key>
     <value>
-      <string>.//puttygen.exe</string>
+      <string>../PuTTY/puttygen.exe</string>
     </value>
   </item>
   <item>
